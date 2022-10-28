@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-intro",
+  "version": "1.0.0",
+  "description": "This is an Introduction to Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "serve": "nodemon index"
+  },
+  "author": "Walid Berrouk",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
