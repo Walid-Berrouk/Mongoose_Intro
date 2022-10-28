@@ -15,6 +15,10 @@ let ProductSchema = new Schema({
   order: {
     type: Schema.Types.ObjectId,
     ref: "Order"
+  },
+  price: {
+    type: Number,
+    required: false
   }
 },{
   writeConcern: {
